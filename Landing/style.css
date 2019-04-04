@@ -1,0 +1,117 @@
+body{
+  background: "image/Blue5.png";
+  color: green;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 50px;
+}
+a {
+  color: yellow;
+}
+p {
+  text-decoration: none;
+  color: rgb(green);
+}
+#banner{
+  text-align: center;
+  background-image: "images/Blue5.png"
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+.card-white {
+  background-color: rgba(btn-blue);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: rgba(red);
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+#footer a:hover {
+  color: white;
+}
+.parent {
+  display: flex;
+  height: 300px; 
+}
+
+.child {
+  width: 100px;  
+  height: 100px; 
+  margin: auto;  
+}
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 8px;
+  width: 500px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
